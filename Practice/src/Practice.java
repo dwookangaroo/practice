@@ -16,7 +16,7 @@ public class Practice {
 		}else {
 			System.out.println(num + "은 3의 배수가 아닙니다.");
 		}
-		scanner.close();
+		scanner.close(); 
 	}
 	private static void program1() {
 		Scanner scanner = new Scanner(System.in);
@@ -34,6 +34,7 @@ public class Practice {
 		}else {
 			System.out.println("F등급");
 		}
+		scanner.close();
 	}
 	
 	
